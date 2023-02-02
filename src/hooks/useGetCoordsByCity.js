@@ -1,6 +1,6 @@
 export const useGetCoordsByCity = () => {
     const fetchCoords = async (city) => {
-        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=4327f11f6458df3e888e99c6b054069c`;
+        const url = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=4327f11f6458df3e888e99c6b054069c`;
         const coords = await fetch(url).then(res => res.json());
         return coords;
     }
