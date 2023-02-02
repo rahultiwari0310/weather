@@ -31,13 +31,13 @@ const FieldItem = ({icon, label, value}) => {
     </div>
 }
 export const CityWeatherDetails = ({ current, daily, location }) => {
-    if(!current || !location.countryName) return null;
+    if(!current || !location?.countryName) return null;
     const date = getDate(current.dt);
     const day = getDay(current.dt);
     const {icon} = current.weather[0];
     return (
         <div className='city-details'>
-            <div>{location.city}, {location.countryName}</div>
+            <div>{location?.city}, {location?.countryName}</div>
             <div className='day-date'>
                 <span>{date}</span>
                 <span>{day}</span>
