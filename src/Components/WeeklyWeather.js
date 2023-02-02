@@ -8,7 +8,7 @@ const DailyWeatherItem = ({day}) => {
       <img
         src={`https://openweathermap.org/img/wn/${day?.weather?.[0].icon}@2x.png`}
       />
-      <span>{getDay(day?.dt * 1000)}</span>
+      <span>{getDay(day?.dt)}</span>
       <span>{day?.weather?.[0]?.description}</span>
     </div>
     <div className="grid-item-footer">
