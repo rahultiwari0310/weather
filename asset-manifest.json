@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.406b5827.css",
+    "main.js": "/weather/static/js/main.f8d1748a.js",
+    "static/js/787.1a5e2857.chunk.js": "/weather/static/js/787.1a5e2857.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/weather/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fa-solid-900.ttf": "/weather/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/weather/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fontawesome-webfont.eot": "/weather/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/weather/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fa-solid-900.woff2": "/weather/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/weather/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/weather/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/weather/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/fa-regular-400.ttf": "/weather/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/weather/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/weather/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/weather/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/weather/index.html",
+    "main.406b5827.css.map": "/weather/static/css/main.406b5827.css.map",
+    "main.f8d1748a.js.map": "/weather/static/js/main.f8d1748a.js.map",
+    "787.1a5e2857.chunk.js.map": "/weather/static/js/787.1a5e2857.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.406b5827.css",
+    "static/js/main.f8d1748a.js"
+  ]
+}
