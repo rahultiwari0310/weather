@@ -44,7 +44,7 @@ export const CityWeatherDetails = ({ current, daily, location }) => {
             </div>
             <div className='day-weather'>
                 <img
-                  src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
+                  src={`https://openweathermap.org/img/wn/${icon}@2x.png`}
                 />
                 <div>{Math.round(current.temp)}℃</div>
             </div>
