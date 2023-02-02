@@ -49,9 +49,10 @@ function App() {
   return (
     <div className="App">
       {
-        isGeolocationEnabled ? null : <div className='geo-error'>Please enter city name or allow this website to access your location.</div>
+        isGeolocationEnabled || city ? null : <div className='geo-error'>Please enter city name or allow this website to access your location.</div>
       }
       <SearchCityForm city={city} onCityChange={setCity} onSubmit={handleFetchWeather} />
+
       {
         weatherResponse.isLoading ? <Loader /> : <>
           <CityWeatherDetails {...weatherResponse.data} location={userLocation}/>

@@ -3,7 +3,7 @@ import { useState } from "react";
 export const useFetchWeatherByCoords = () => {
     const [weatherResponse, setWeatherResponse] = useState({
         data: [],
-        isLoading: true,
+        isLoading: false,
         error: null
     })
     const fetchWeather = (coords) => {
