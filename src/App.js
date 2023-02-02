@@ -59,6 +59,7 @@ function App() {
           <WeeklyWeather weathers={weatherResponse.data} />
         </>
       }
+      <div className='dev'><i class="fa-solid fa-hammer"></i> <a href="https://github.com/rahultiwari0310" target="_blank">rahultiwari0310</a></div>
     </div>
   );
 }

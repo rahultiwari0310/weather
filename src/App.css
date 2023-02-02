@@ -118,11 +118,13 @@
   color: #fefefe;
   text-transform: capitalize;
 }
+
 .geo-error {
   padding: 4px;
   border: 1px solid red;
   border-radius: 4px;
 }
+
 .city-details {
   border: 1px solid #3f3749;
   background-color: #4b4257;
@@ -134,25 +136,41 @@
   align-items: center;
   width: 250px;
 }
+
 .day-date {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
   width: 100%;
 }
+
 .day-weather div {
   color: orange;
-  
+
 }
+
 .field-item {
   display: flex;
   justify-content: space-between;
   margin: 16px 0;
   width: 100%;
 }
+
 .field-item span i {
   margin-left: 12px;
 }
+
 .weather-values {
   width: 100%;
+}
+
+.dev {
+  color: brown;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.dev a {
+  color: brown;
 }
