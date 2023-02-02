@@ -2,7 +2,7 @@ import { getDate, getDay } from '../utils';
 const fieldsToShow = [
     {
         key: 'feels_like',
-        label: "Temperature",
+        label: "Feel like",
         icon: "temperature-half",
         suffix: "℃"
     },
